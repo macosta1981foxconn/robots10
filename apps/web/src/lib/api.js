@@ -1,6 +1,6 @@
 import { API_URL } from '$app/env/public';
 
-const BASE_URL = (API_URL || 'http://localhost:3001/api').replace(/\/$/, '');
+const BASE_URL = (API_URL || '/api').replace(/\/$/, '');
 const TOKEN_KEY = 'robot_admin_token';
 
 export function getToken() {
